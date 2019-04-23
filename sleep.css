@@ -1,45 +1,70 @@
 /*colors
-light purple: #9E78E3
-dark purple: #6F43A3
-light yellow: #FBF891
-dark yellow: #F3E92F */
+pink: #EB528A
+purple: #6868AC
+teal: #70D2C7
+peach: #ED7874
 
 
 /*fonts
 font-family: 'Pacifico', cursive;
 font-family: 'Petrona', serif;
-font-family: 'Special Elite', cursive;*/
+font-family: 'Special Elite', cursive;
+
+font-family: 'Rokkitt', serif;
+font-family: 'Ubuntu', sans-serif; */
 
 
 /*responsive*/
 body,
 html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background: #EB528A;}
 
 /*global padding*/
 .pad {
-    padding: 1% 2% 1% 1%;
+    padding: 1%;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+
 }
 
 .header {
-  font-family: 'Pacifico';
-  color: pink;
-  font-size: 3vw;
+  font-family: 'Rokkitt', serif;
+  color: #6868AC;
+  font-size: 4vw;
   text-align: center;
 }
 
 .section {
-  font-family: 'Petrona', serif;
-  background: pink;
+  font-family: 'Rokkitt', serif;
+  background: #6868AC;
   color: black;
-  font-size: 2vw;
+  font-size: 2.5vw;
   padding: 1%;
   text-align: center;
+  color: white;
+}
+
+.section2 {
+  font-family: 'Rokkitt', serif;
+  background: #ED7874;
+  color: black;
+  font-size: 2.5vw;
+  padding: 1%;
+  text-align: center;
+  color: white;
 }
 
 .section_content {
-  font-family: 'Petrona', serif;
+  font-family: 'Ubuntu', serif;
+}
+
+.section_content h2 {
+  text-align: center;
 }
 
 /* Clear floats after image containers */
@@ -60,9 +85,35 @@ html {
     margin-right: auto;
 }
 
+.column1 h2 {
+  text-align: center;
+
+}
+
 .column2 {
     width: 25%;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Ubuntu', serif;
+    text-align: center;
+}
+
+.column2 h2 {
+  font-size: 2vw;
+  font-family: "Rokkitt", serif;
+}
+
+.column3 {
+    width: 33%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu', serif;
+    text-align: center;
+}
+
+.column3 h2 {
+  font-size: 2vw;
+  font-family: "Rokkitt", serif;
 }
